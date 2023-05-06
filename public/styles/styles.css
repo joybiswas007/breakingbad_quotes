@@ -1,0 +1,31 @@
+body{
+	margin-top: 157px;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("/images/bb.jpg");
+	background-size: contain;
+	background-position: center center;
+  	background-blend-mode: multiply;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.author {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #FFD95A;
+}
+
+.quote {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  color: #FFD95A;
+}
+
+.my-button {
+  font-size: 1.5rem;
+}
